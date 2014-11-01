@@ -27,10 +27,15 @@
       <h1>FinMap</h1>
       <p class="subtitle">Mapping you to your Money</p>
       <div class="w-form sign-up-form">
-        <form class="w-clearfix" name="wf-form-signup-form" data-name="Signup Form" data-redirect="stockdata.html">
+    <!--    <form class="w-clearfix" name="wf-form-signup-form" data-name="Signup Form" data-redirect="stockdata.html">
           <input class="w-input field" id="Stock-Ticker" type="text" placeholder="Enter your stock ticker" name="Stock-Ticker" data-name="Stock Ticker" required="required" autofocus>
           <input class="w-button button" type="submit" value="Get Started" data-wait="Please wait...">
         </form>
+        -->
+        <form name="input" action="stockData.html" method="get">
+Username: <input type="text" name="stockTicker">
+<input type="submit" value="Submit">
+</form>
         <div class="w-form-done success-message">
           
           <div class="w-widget w-widget-twitter share-button">
